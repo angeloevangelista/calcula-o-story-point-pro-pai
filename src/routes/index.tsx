@@ -11,7 +11,7 @@ import * as SC from "./styles";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <NoWherePage />,
+    element: <EstimatePage />,
   },
   {
     path: "/:session_code/estimate",

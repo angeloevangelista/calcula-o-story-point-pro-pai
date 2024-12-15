@@ -1,4 +1,4 @@
-import { TbUsersGroup, TbEdit, TbTimeDuration15 } from "react-icons/tb";
+import { TbTimeDuration15 } from "react-icons/tb";
 import { IoEnterOutline } from "react-icons/io5";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -51,7 +51,7 @@ const Routes: React.FC = () => {
             <strong className="label">Convert Story Points</strong>
           </SC.SideBarItem>
 
-          <SC.SideBarItem>
+          {/* <SC.SideBarItem>
             <a href="/fake-session-code/estimate">
               <TbEdit />
             </a>
@@ -63,7 +63,7 @@ const Routes: React.FC = () => {
               <TbUsersGroup />
             </a>
             <strong className="label">Estimate summary</strong>
-          </SC.SideBarItem>
+          </SC.SideBarItem> */}
         </div>
       </SC.SideBar>
 
